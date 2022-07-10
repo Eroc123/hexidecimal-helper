@@ -59,7 +59,7 @@ while True:
 
     if awnser.upper() == 'EXIT':
         break
-    elif awnser == hex[queation]:
+    elif awnser.upper() == hex[queation]:
         print('Correct')
         correct += 1
         if queation in incorrecthex:
